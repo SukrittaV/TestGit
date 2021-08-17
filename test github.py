@@ -16,7 +16,7 @@ def rebalance():
     btc_balance = float(input('BTC balance[Coin] : '))  # จำนวนเหรียญ BTC ที่มี
     btc_Value = bitCoinTHB * btc_balance  # มูลค่า BTC ที่มี
     print('BTC balance [value]', btc_Value)
-    fix_Value = (btc_Value + thb_Value)/2 # มูลค่าส่วนต่างของ 2 asset
+    fix_Value = (btc_Value + thb_Value)/2 # มูลค่าที่ 2 asset จะเท่ากัน 
     print('fix value :',fix_Value)
     #print('fix value percentage :',fix_Value * (1+(percentage/100)))
     # ขายออก
